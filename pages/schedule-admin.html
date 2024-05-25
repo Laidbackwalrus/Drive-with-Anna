@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Drive with Anna</title>
+        <link rel="stylesheet" href="/css/mainStylesheet.css">
+        <link rel="stylesheet" href="/css/table.css">
+        <link rel="stylesheet" href="/css/schedule.css">
+        <link rel="icon" href="/images/logoFinal.png">
+    </head>
+    
+    <body>
+        <div id="navbar">
+            <a href="/index.html">Home</a>
+            <a href="/pages/book-lesson/choose-hours.html">Book a lesson</a>
+            <a href="/pages/contact-us.html">Contact Us</a>
+            <a class="right" id="signin" href="/pages/account-pages/signin.html">Sign in</a>
+        </div>
+
+        <div id="mainContainer">
+            <div id="desciptionContainer">
+                <button id="selectButton" onclick="selectButton()">Select working times</button>
+                <button id="confirmButton" onclick="confirmButton()">Confirm</button>
+                <h4>Student details</h4>
+                <p id="firstNameDetails">none</p>
+                <p id="lastNameDetails">none</p>
+                <p id="emailDetails">none</p>
+                <br>
+                <h3>Help</h3>
+                <p>Lessons shown in <b>red</b> have the students name writen on them</p>
+                <p>Lessons can be <b>clicked</b> to see more details about students</p>
+                <br>
+                <p>Available slots are shown in <b>green</b> and are the times where students can book lessons</p>
+                <p>To add or remove available slots click the select working times button and click and drag the times which you want to change</p>
+                <p>When you have made your changes click the confirm button</p>
+                <p>If you want to cancel your changes click the cancel button</p>              
+            </div>
+            <div id="tableContainer">
+                <h3 id="date"></h3>
+                <table id="table">
+                    <tr>
+                        <th></th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wesnesday</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                        <th>Saturday</th>
+                        <th>Sunday</th>
+                    </tr>
+                </table>
+                <div id="timeButtons">
+                    <button id="previousWeek" onclick="previousWeekButton()">Preivous</button>
+                    <button id="nextWeek" onclick="nextWeekButton()">Next</button>
+                </div>
+            </div>
+        </div>
+            
+        <script src="../../scripts/main_script.js"></script>
+        <script src="../../scripts/table.js"></script>
+        <script src="../../scripts/admin_schedule.js"></script>
+    </body>
+</html>

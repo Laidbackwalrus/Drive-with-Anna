@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Drive with Anna</title>
+        <link rel="stylesheet" href="/css/mainStylesheet.css">
+        <link rel="stylesheet" href="/css/statistics.css">
+        <link rel="icon" href="/images/logoFinal.png">
+    </head>
+    
+    <body>
+        <div id="navbar">
+            <a href="/index.html">Home</a>
+            <a href="/pages/book-lesson/choose-hours.html">Book a lesson</a>
+            <a href="/pages/contact-us.html">Contact Us</a>
+            <a class="right" id="signin" href="/pages/account-pages/signin.html">Sign in</a>
+        </div>
+    
+        <div id="mainContainer">
+            <div id="modeButtonsContainer">
+                <button onclick="chooseTime('year')">Year</button>
+                <button onclick="chooseTime('month')">Month</button>
+                <button onclick="chooseTime('week')">Week</button>
+
+                <!-- span doesnt start a new line -->
+                <span id="date"></span> 
+
+            </div>
+
+            <div id="graphContainer">
+                <canvas id="barGraph"></canvas>
+            </div>
+
+            <div id="navButtonsContainer">
+                <button onclick="previousButton()">Previous</button>
+                <button onclick="nextButton()">Next</button>
+            </div>
+        </div>
+
+
+        <script src="/scripts/main_script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+        <script src="/scripts/admin_statistics.js"></script>
+    </body>
+</html>

@@ -1,0 +1,76 @@
+body {
+  background-color: rgb(207, 207, 207);
+  margin: 0px;
+  height: 100%;
+}
+
+html{
+    height: 100%;
+}
+
+#bannerContainer{
+    text-align: center;
+    height: 81px;
+    background: #333;
+}
+
+#title {
+    text-decoration: underline;
+    font-size: 23px;
+}
+
+#mainContainer {
+    margin: 10px;
+}
+
+/* css for navbar div */
+#navbar {
+    background-color: #333;
+    overflow: hidden; /* forces div to cover padded contents */
+}
+
+    /* css for any <a> tags inside the navbar div */
+    #navbar a {
+        float: left; /* allows for padding by changing display type and moves elements to the right */
+        color: #f2f2f2;
+        text-align: center; 
+        padding: 14px 16px; /* creates a box around the <a> tag */
+        text-decoration: none; /* remove underlines */
+        font-size: 17px; 
+        font-family: Arial, Helvetica, sans-serif;
+        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    }
+    
+    /* css for when <a> tags are being hovered over */
+    #navbar a:hover {
+        background-color: rgb(255, 255, 255);
+        color: black;
+    }
+    
+    #navbar a.active {
+        background-color: #F03030;
+        color: white;
+    }
+    
+    #navbar a.right {
+        float: right;
+    }
+    
+
+    
+button{
+    background-color: #e0e0e0;
+    color: rgb(0, 0, 0);
+    border: black 1px solid;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 4px 15px 4px 15px;
+    position: relative;
+    top: 5px; 
+}
+
+    button:hover{
+        background: white;
+        color: black;
+    }
+

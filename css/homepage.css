@@ -1,0 +1,100 @@
+.infoContainer{   
+    /* makes all contents centered and stack vertically  */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+    #aboutUs{
+        width: 60%;
+        text-align: center;
+    }
+
+h2 {
+    margin: 0px 0px 10px 0px;
+}
+
+p{
+    margin: 5px 0px 0px 0px;
+}
+
+.leftRight{
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+}
+    .leftContainer{
+        display: flex;
+        flex: 3 1 0px;
+        flex-direction: column;
+        gap: 10px;
+    }   
+    
+        #instructorContainer{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+            flex: 2 1 0px;
+
+            border: 1px black solid;
+        }
+
+            #instructorImageContainer{
+                flex: 1 1 0px;
+                margin: 5px;
+                border: 1px black solid;
+            }
+                #instructorImg{
+                    width: 533px;
+                    height: 400px;
+                    display: block;
+                }
+
+            #instructorDistContainer{
+                flex: 2 1 0px;
+                margin: 5px;
+            }
+
+        #bottomContainer{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+            gap: 10px;
+            flex: 2 1 0px;
+        }
+            
+            #contactUsContainer {
+                flex: 1 1 0px;
+                border: 1px black solid;
+                padding: 5px;
+            }
+
+
+
+
+    /* slideshow container */
+    .rightContainer{
+        flex: 1 2 0px;
+        display: flex;
+        border: 1px black solid;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .rightContainer img{
+            width: 600px;
+            height: 600px;
+            display: none;
+
+            animation-name: fade;
+            animation-duration: 1s;
+        }
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+    }

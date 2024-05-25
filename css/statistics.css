@@ -1,0 +1,41 @@
+/* makes graph bigger */
+#graphContainer{
+    flex-grow: 12; 
+}
+
+/* fixes hight of page and children will be in a column */
+html, body {    
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* sets main container to be primary focus of page */
+/* children will be in column and centered */
+#mainContainer{
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* centers buttons spaces and spaces them */
+#navButtonsContainer{
+    text-align: center;
+    margin-bottom: 5px;
+    flex-grow: 1;
+}
+
+/* spaces buttons */
+#modeButtonsContainer{
+    margin-bottom: 15px;
+}
+
+/* positions date and formats text */
+#date{
+    position: absolute;
+    left: 50%;
+    text-decoration: underline;
+    font-size: 30px;
+    
+}

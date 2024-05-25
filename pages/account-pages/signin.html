@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Drive with Anna</title>
+        <link rel="stylesheet" href="/css/mainStylesheet.css">
+        <link rel="stylesheet" href="/css/signin.css">
+        <link rel="icon" href="/images/logoFinal.png">
+    </head>
+    
+    <body>
+        <div id="bannerContainer">
+            <img src="/images/logoFinal.png" alt=""><img src="/images/banner.png" id="banner" alt="">
+        </div>
+        
+
+        <div id="navbar">
+            <a href="/index.html">Home</a>
+            <a href="/pages/book-lesson/choose-hours.html">Book a lesson</a>
+            
+            <a href="/pages/contact-us.html">Contact Us</a>
+            <a class="right active" id="signin" href="/pages/account-pages/signin.html">Sign in</a>
+        </div>
+        
+
+        <div id="mainContainer">
+            <p id="title">To sign in please enter your details below</p>
+    
+            <div>
+                <div class="inputContainer">
+                    <label>Email:</label>
+                    <input type="text" id="email">
+                </div>
+                
+                <div class="inputContainer">
+                    <label>Password:</label>
+                    <input type="text" id="password">
+                </div>
+
+                <button onclick="signinButton()">Sign in</button>
+                <p id="error" style="display: none;">Your email or password was incorrect</p>
+
+                <p>If you dont have an account and would like to register, <a href="signup.html">click here.</a></p>
+            </div>
+        </div>
+        
+        <script src="../../scripts/main_script.js"></script>
+        <script src="../../scripts/account/signin.js"></script>
+    </body>
+</html>

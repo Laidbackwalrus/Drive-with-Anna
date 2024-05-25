@@ -1,0 +1,99 @@
+Date : 2023-10-27 10:32:45
+Directory : c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana
+Total : 58 files,  2528 codes, 360 comments, 584 blanks, all 3472 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JavaScript |         13 |        780 |        227 |        188 |      1,195 |
+| HTML       |         18 |        756 |          6 |        137 |        899 |
+| PHP        |         13 |        475 |        104 |        127 |        706 |
+| CSS        |         11 |        458 |         14 |        114 |        586 |
+| SQL        |          1 |         51 |          9 |         16 |         76 |
+| JSON       |          1 |          6 |          0 |          1 |          7 |
+| XML        |          1 |          2 |          0 |          1 |          3 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                             | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                |         58 |      2,528 |        360 |        584 |      3,472 |
+| . (Files)                                                                                        |         13 |        452 |         13 |        100 |        565 |
+| css                                                                                              |         10 |        433 |         14 |        112 |        559 |
+| pages                                                                                            |         12 |        496 |          5 |         91 |        592 |
+| pages (Files)                                                                                    |          4 |        159 |          1 |         19 |        179 |
+| pages\account-pages                                                                              |          3 |        135 |          1 |         31 |        167 |
+| pages\book-lesson                                                                                |          5 |        202 |          3 |         41 |        246 |
+| php                                                                                              |         12 |        391 |        101 |        100 |        592 |
+| scripts                                                                                          |         11 |        756 |        227 |        181 |      1,164 |
+| scripts (Files)                                                                                  |          5 |        513 |        121 |        120 |        754 |
+| scripts\account                                                                                  |          3 |        116 |         26 |         25 |        167 |
+| scripts\book_lesson                                                                              |          3 |        127 |         80 |         36 |        243 |
++--------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                         | language   | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\account.html                        | HTML       |         52 |          0 |          7 |         59 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\css\account.css                     | CSS        |         61 |          0 |         14 |         75 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\css\chooseDate.css                  | CSS        |         29 |          0 |          8 |         37 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\css\homepage.css                    | CSS        |         82 |          2 |         16 |        100 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\css\mainStylesheet.css              | CSS        |         58 |          4 |         15 |         77 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\css\pay.css                         | CSS        |         28 |          1 |          6 |         35 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\css\schedule.css                    | CSS        |         43 |          0 |         11 |         54 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\css\signin.css                      | CSS        |         32 |          0 |         14 |         46 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\css\signup.css                      | CSS        |         34 |          0 |         12 |         46 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\css\statistics.css                  | CSS        |         28 |          7 |          6 |         41 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\css\table.css                       | CSS        |         38 |          0 |         10 |         48 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\dev.html                            | HTML       |         28 |          0 |          6 |         34 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\dev.js                              | JavaScript |          4 |          0 |          1 |          5 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\finish.html                         | HTML       |         25 |          0 |         10 |         35 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\index.html                          | HTML       |         61 |          1 |          8 |         70 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\package-lock.json                   | JSON       |          6 |          0 |          1 |          7 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\pages\account-pages\account.html    | HTML       |         50 |          0 |          7 |         57 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\pages\account-pages\signin.html     | HTML       |         38 |          0 |         12 |         50 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\pages\account-pages\signup.html     | HTML       |         47 |          1 |         12 |         60 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\pages\book-lesson\choose-date.html  | HTML       |         55 |          0 |          3 |         58 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\pages\book-lesson\choose-hours.html | HTML       |         29 |          0 |          4 |         33 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\pages\book-lesson\pay.html          | HTML       |         33 |          3 |         13 |         49 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\pages\book-lesson\signin.html       | HTML       |         38 |          0 |         11 |         49 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\pages\book-lesson\signup.html       | HTML       |         47 |          0 |         10 |         57 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\pages\contact-us.html               | HTML       |         38 |          0 |          3 |         41 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\pages\redirect.html                 | HTML       |         27 |          0 |          5 |         32 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\pages\schedule-admin.html           | HTML       |         59 |          0 |          3 |         62 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\pages\statistics-admin.html         | HTML       |         35 |          1 |          8 |         44 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\php\check_lesson.php                | PHP        |         16 |          3 |          5 |         24 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\php\config.php                      | PHP        |         29 |          3 |          5 |         37 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\php\create_lesson.php               | PHP        |         15 |          5 |          4 |         24 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\php\get_lesson.php                  | PHP        |         27 |          9 |          7 |         43 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\php\get_user_details.php            | PHP        |         54 |         15 |         11 |         80 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\php\lessons.php                     | PHP        |         73 |         16 |         20 |        109 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\php\report.xml                      | XML        |          2 |          0 |          1 |          3 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\php\signin.php                      | PHP        |         34 |          8 |          9 |         51 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\php\signup.php                      | PHP        |         26 |          7 |         10 |         43 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\php\slot.php                        | PHP        |         19 |          7 |          5 |         31 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\php\statistics.php                  | PHP        |         63 |         16 |         13 |         92 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\php\working_slots.php               | PHP        |         33 |         12 |         10 |         55 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\scripts\account\account.js          | JavaScript |         26 |         10 |         10 |         46 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\scripts\account\signin.js           | JavaScript |         18 |          3 |          4 |         25 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\scripts\account\signup.js           | JavaScript |         72 |         13 |         11 |         96 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\scripts\admin_schedule.js           | JavaScript |        141 |         25 |         25 |        191 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\scripts\admin_statistics.js         | JavaScript |        143 |         38 |         42 |        223 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\scripts\book_lesson\choose_date.js  | JavaScript |        101 |         27 |         25 |        153 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\scripts\book_lesson\choose_hours.js | JavaScript |          4 |          0 |          2 |          6 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\scripts\book_lesson\pay.js          | JavaScript |         22 |         53 |          9 |         84 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\scripts\homepage.js                 | JavaScript |         17 |          8 |          6 |         31 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\scripts\main_script.js              | JavaScript |         84 |         20 |         18 |        122 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\scripts\table.js                    | JavaScript |        128 |         30 |         29 |        187 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\sql-code.sql                        | SQL        |         51 |          9 |         16 |         76 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\student-reviews.html                | HTML       |         40 |          0 |         10 |         50 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\student_reviews.css                 | CSS        |         25 |          0 |          2 |         27 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\student_reviews.js                  | JavaScript |         20 |          0 |          6 |         26 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\student_reviews.php                 | PHP        |         29 |          1 |         10 |         40 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\stuff.html                          | HTML       |         54 |          0 |          5 |         59 |
+| c:\Users\Johno\OneDrive\Bishop ramsey\Project\drive with ana\table.php                           | PHP        |         57 |          2 |         18 |         77 |
+| Total                                                                                            |            |      2,528 |        360 |        584 |      3,472 |
++--------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

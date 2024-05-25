@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Drive with Anna</title>
+        <link rel="stylesheet" href="/css/mainStylesheet.css">
+        <link rel="stylesheet" href="/css/account.css">
+        <link rel="icon" href="/images/logoFinal.png">
+    </head>
+
+    <div id="bannerContainer">    
+        <img src="/images/logoFinal.png" alt=""><img src="/images/banner.png" id="banner" alt="">
+    </div>
+        
+        <div id="navbar">
+            <a href="/index.html">Home</a>
+            <a href="/pages/book-lesson/choose-hours.html">Book a lesson</a>
+            <a href="/pages/contact-us.html">Contact Us</a>
+            <a class="right active" id="signin" href="/pages/account-pages/signin.html">Sign in</a>
+        </div>
+
+    <body>
+        <div id="detailsContainer">
+            <div class="inputContainer">
+                <label>First Name:</label>
+                <input type="text" id="firstName" readonly>
+            </div>
+            <div class="inputContainer">
+                <label>Last Name:</label>
+                <input type="text" id="lastName" readonly>
+            </div>
+            <div class="inputContainer">
+                <label>Email:</label>
+                <input type="text" id="email" readonly>
+            </div>
+        </div>
+
+        <div id="lessonContainer">
+            <div id="lessonTrue" style="display: none;">
+                <p id="title">Next lesson</p>
+                <span id="length">Lenght : </span><br>
+                <span id="date">Date : </span>
+            </div>
+            <div id="lessonFalse">
+                <span> You have no lessons booked, to book one click the button on the right</span>
+                <div id="bookLesson">
+                    <button onclick="bookLessonButton()">Book Lesson</button> 
+                </div>
+            </div>
+        </div>
+
+        <button id="signout_button">Sign out</button>
+
+
+        <script src="../../scripts/main_script.js"></script>
+        <script src="../../scripts/account/account.js"></script>
+    </body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Drive with Anna</title>
+        <link rel="icon" href="/images/logoFinal.png">
+        <link rel="stylesheet" href="/css/mainStylesheet.css">
+        <link rel="stylesheet" href="/css/table.css">
+        <link rel="stylesheet" href="/css/schedule.css">
+    </head>
+    
+    <body>
+        <div id="bannerContainer">    
+            <img src="/images/logoFinal.png" alt=""><img src="/images/banner.png" alt="">
+        </div>
+        <div id="navbar">
+            <a href="/index.html">Home</a>
+            <a class="active" href="/pages/book-lesson/choose-hours.html">Book a lesson</a>
+            <a href="/pages/contact-us.html">Contact Us</a>
+            <a class="right" id="signin" href="/pages/account-pages/signin.html">Sign in</a>
+        </div>
+
+        <div id="mainContainer">
+            <div id="desciptionContainer">
+                <p id="title">Please book a date of your lesson</p>
+                <p>Use the calendar to pick a date for your lesson in the green avaliable slots. 
+                    To do this hover over and if you can see where your lesson will go being highlighted then you can book your lesson there.
+                    Once you have decided on when you want your lesson click that spot on the table and you will be brought to the next step</p>
+                <p>Green is avaliable</p>
+                <p>Red is booked</p>
+                <p>Hover over to see lesson</p>
+                <p>Click to choose date</p>
+            </div>
+            <div id="tableContainer">
+                <h3 id="date"></h3>
+                <table id="table">
+                    <tr>
+                        <th></th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wesnesday</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                        <th>Saturday</th>
+                        <th>Sunday</th>
+                    </tr>
+                </table>
+                <div id="timeButtons">
+                    <button id="previousWeek" onclick="previousWeekButton()">Preivous</button>
+                    <button id="nextWeek" onclick="nextWeekButton()">Next</button>
+                </div>
+            </div>
+        </div>
+            
+        <script src="../../scripts/main_script.js"></script>
+        <script src="../../scripts/table.js"></script>
+        <script src="../../scripts/book_lesson/choose_date.js"></script>
+    </body>
+</html>

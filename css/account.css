@@ -1,0 +1,74 @@
+#detailsContainer {
+    background-color: rgb(224, 224, 224);
+    border: 1px black solid;
+    padding-left: 10px;
+    width: 800px;
+    margin: 10px;
+    position: relative;
+}
+
+#lessonContainer {
+    background-color: rgb(224, 224, 224);
+    border: 1px black solid;
+    padding: 10px;
+    width: 790px;
+    margin: 10px;
+    position: relative;
+    min-height: 30px;
+}
+
+#title {
+    text-decoration: underline;
+    font-size: 20px;
+    margin: 0px 0px 5px 0px;
+
+}
+
+#bookLesson {
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    margin: 5px;
+}
+
+label {
+    font-size: 17px;
+}
+
+.inputContainer {
+    margin: 10px 0px 10px 0px;
+}
+
+    .inputContainer button{
+        position: relative;
+        float: right;
+        bottom: 4px;
+        right: 10px;
+        padding: 3px 15px 3px 15px;
+    }
+
+input {
+    position: absolute;
+    left: 120px;
+}
+
+#email {
+    width: 250px;   
+}
+
+button{
+    background-color: #e0e0e0;
+    color: rgb(0, 0, 0);
+    border: black 1px solid;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 4px 15px 4px 15px;
+    left :10px;
+}
+
+    button:hover{
+        background: white;
+        color: black;
+    }
+
+

@@ -1,0 +1,27 @@
+#leftContainer{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+#rightContainer{
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+.review{
+    margin: 10px;
+    border: 1px black solid;
+    width: auto;
+}
+    .reviewTop {
+        text-align: center;
+    }
+        .firstName{
+            display: inline;
+        }
+        .rating{
+            display: inline;
+            float: right;
+        }

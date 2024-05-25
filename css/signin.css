@@ -1,0 +1,45 @@
+#mainContainer {
+    background-color: rgb(224, 224, 224);
+    border: 1px black solid;
+    padding-left: 10px;
+    width: 800px;
+}
+
+#title {
+    text-decoration: underline;
+    font-size: 23px;
+}
+
+label {
+    font-size: 17px;
+}
+
+p {
+    font-size: 17px;
+}
+
+.inputContainer {
+    margin: 5px 0px 5px 0px;
+}
+
+
+input {
+    position: absolute;
+    left: 120px;
+}
+
+#error {
+    color: red;
+}
+
+
+#email {
+    width: 250px;   
+}
+
+#emailError {
+    left: 383px;
+}
+
+
+

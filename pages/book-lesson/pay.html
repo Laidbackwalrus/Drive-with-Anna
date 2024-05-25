@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Drive with Anna</title>
+        <link rel="stylesheet" href="/css/mainStylesheet.css">
+        <link rel="stylesheet" href="/css/pay.css">
+        <link rel="icon" href="/images/logoFinal.png">
+    </head>
+    
+    <body>
+        <div id="bannerContainer">
+            <img src="/images/logoFinal.png" alt=""><img src="/images/banner.png" id="banner" alt="">
+        </div>
+        
+
+        <div id="navbar">
+            <a href="/index.html">Home</a>
+            <a class="active" href="/pages/book-lesson/choose-hours.html">Book a lesson</a>
+            
+            <a href="/pages/contact-us.html">Contact Us</a>
+            <a class="right" id="signin" href="/pages/account-pages/signin.html">Sign in</a>
+        </div>
+
+        
+
+        <div id="mainContainer">
+            <div id="payContainer">
+                <p id="title">Please pay to finish your lesson booking</p>
+                <div id="infoContainer">
+                    <p>Length : <span id="length"></span></p>
+                    <p>Date : <span id="date"></span></p>
+                    <p>Price : <span id="price"></span></p>
+                </div>
+                
+                <button onclick="tempPay()">Pay</button>
+                
+                <!-- Set up a container element for the button -->
+                <!-- <div id="paypal-button-container"></div> -->
+            </div>
+            
+            <!-- <script src="https://www.paypal.com/sdk/js?client-id=AQ_cK-K2C0-xYym3t01AJnMwhYiLKoss00f_zHC-e9FwaedLqK7qGzH1cuy_OR3_LbjfGd_bi9DfROxM&currency=GBP"></script> -->
+            <script src="/scripts/main_script.js"></script>
+            <script src="/scripts/book_lesson/pay.js"></script>
+        </div>
+    </body>
+</html>
+
+

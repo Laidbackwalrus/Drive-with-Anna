@@ -1,0 +1,48 @@
+#mainContainer{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    height: auto;
+
+    flex-grow: 2;
+}
+
+html, body{
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+table{
+    margin: auto;
+    width: 90%;
+    height: 600px;
+    flex-grow: 2;
+    user-select: none;
+}
+
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    width: 12.5%;
+  }
+
+  td div {
+    width: auto;
+    height: 25%;
+  }
+  
+  th {
+    background-color:grey;
+  }
+  
+  td {
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+  }
+  

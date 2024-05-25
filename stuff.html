@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/table.css">
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        
+        th, td {
+            width: 12.5%;
+        }
+
+        td div {
+            width: auto;
+            height: 25%;
+        }
+        
+        th {
+            background-color:grey;
+        }
+        
+        td {
+            background-color: rgb(255, 255, 255);
+            padding: 0px;
+        }
+    </style>
+</head>
+<body>
+    <h3 id="date"></h3>
+    <table id="table">
+        <tr>
+            <th></th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wesnesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+            <th>Sunday</th>
+        </tr>
+    </table>
+    <div id="timeButtons">
+        <button id="previousWeek" onclick="previousWeekButton()">Preivous</button>
+        <button id="nextWeek" onclick="nextWeekButton()">Next</button>
+    </div>
+
+    <script src="/scripts/main_script.js"></script>
+    <script src="/scripts/table.js"></script>
+    <script>
+        var date = new Date()
+        loadPage(date)
+    </script>
+</body>
+</html>

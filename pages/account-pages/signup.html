@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Drive with Anna</title>
+        <link rel="stylesheet" href="/css/mainStylesheet.css">
+        <link rel="stylesheet" href="/css/signup.css">
+        <link rel="icon" href="/images/logoFinal.png">
+    </head>
+    
+    <body>
+        <div id="bannerContainer">
+            <img src="/images/logoFinal.png" alt=""><img src="/images/banner.png" alt="">
+        </div>
+        
+        <div id="navbar">
+            <a href="/index.html">Home</a>
+            <a href="/pages/book-lesson/choose-hours.html">Book a lesson</a>
+            <a href="/pages/contact-us.html">Contact Us</a>
+            <a class="right" id="signin" href="/pages/account-pages/signin.html">Sign in</a>
+        </div>
+        
+        <div id="mainContainer">
+            <p id="title">To sign up please enter your details below</p>
+            
+            <!-- input boxes and errors -->
+            <div class="inputContainer">
+                <label>First Name:</label>
+                <input type="text" id="firstName">
+                <span class="error" id="firstNameError"></span><br>
+            </div>
+            
+            <div class="inputContainer">
+                <label>Last Name:</label>
+                <input type="text" id="lastName">
+                <span class="error" id="lastNameError"></span>
+            </div>
+            
+            <div class="inputContainer">
+                <label>Email:</label>
+                <input type="text" id="email">
+                <span class="error" id="emailError"></span><br>
+            </div>
+            
+            <div class="inputContainer">
+                <label>Password:</label>
+                <input type="text" id="password">
+                <span class="error" id="passwordError"></span><br>
+            </div>
+
+            
+            <button onclick="signupButton()">Sign up</button>
+            
+            <p>Already have an account, <a href="signin.html">click here</a> to sign in.</p>
+        </div>
+        
+        <script src="../../scripts/main_script.js"></script>
+        <script src="../../scripts/account/signup.js"></script> 
+    
+    </body>
+</html>

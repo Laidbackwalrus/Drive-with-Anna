@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+#mainContainer {
+    display: flex;
+
+    /* center  */
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+} 
+
+#payContainer {
+    width: 700px;
+    height: auto;
+    text-align: center;
+    border: 1px black solid;
+    padding: 5px;
+    top: 500px;
+    padding-bottom: 20px;
+    background-color: rgb(224, 224, 224);
+}
+
+#paypal-button-container{
+   display: block;
+   margin-top: 10px;
+}
+
+#infoContainer{
+    text-align: center;
+}
